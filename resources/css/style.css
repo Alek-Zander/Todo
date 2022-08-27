@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+body, input, button{
+    font-family: 'Roboto', sans-serif;
+}
 header {
     width: 100%;
     height: 80px;
@@ -18,19 +21,34 @@ header input {
     width: 100%;
     height: 50px;
     float: left;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-indent: 18px;
     background: rgba(255, 255, 255, 0.2);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    
     border: 0px;
     box-shadow: none;
     outline: none;
 
-    -webkit-animation: none;
+    -webkit-appearance: none;
     -moz-appearance: none;
     -ms-appearance: none;
     -o-appearence: none;
     appearance: none;
+}
+header input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+header input:-moz-input-placeholder{
+    color: rgba(255, 255, 255, 0.75);
+}
+header input:-moz-input-placeholder{
+    color: rgba(255, 255, 255, 0.75);
+}
+header input:-moz-input-placeholder{
+    color: rgba(255, 255, 255, 0.75);
 }
